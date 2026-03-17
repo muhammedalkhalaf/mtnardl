@@ -1,0 +1,25 @@
+Package: mtnardl
+Type: Package
+Title: Bootstrap Multiple Threshold Nonlinear ARDL
+Version: 1.0.0
+Authors@R: person("Muhammad", "Alkhalaf", email = "muhammedalkhalaf@gmail.com",
+    role = c("aut", "cre", "cph"),
+    comment = c(ORCID = "0009-0002-2677-9246"))
+Description: Implements the Multiple Threshold Nonlinear ARDL (MTNARDL) model
+    following Pal and Mitra (2016) <doi:10.1016/j.econmod.2015.09.058>.
+    Regressors are decomposed into regime-specific partial sums based on
+    quantile or custom cut-point partitions. Cointegration is assessed using
+    the PSS bounds test of Pesaran, Shin and Smith (2001)
+    <doi:10.1002/jae.616>. An optional bootstrap variant provides
+    finite-sample critical values following McNown, Sam and Goh (2018)
+    <doi:10.1111/obes.12222>. Lag orders are selected automatically by AIC
+    or BIC. Dynamic multipliers per regime are reported.
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Depends: R (>= 3.5.0)
+Imports: stats
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/muhammedalkhalaf/mtnardl
+BugReports: https://github.com/muhammedalkhalaf/mtnardl/issues
