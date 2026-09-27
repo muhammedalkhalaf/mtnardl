@@ -1,4 +1,4 @@
-﻿#' Bootstrap Multiple Threshold Nonlinear ARDL
+#' Bootstrap Multiple Threshold Nonlinear ARDL
 #'
 #' Estimates a Multiple Threshold Nonlinear ARDL (MTNARDL) model following
 #' Pal and Mitra (2016). Each variable listed in \code{decompose} is split
@@ -57,10 +57,10 @@
 #'   \item{call}{The matched call.}
 #'
 #' @references
-#' Pal, D., & Mitra, S. K. (2016). Asymmetric oil price transmission to the
-#' purchasing power of the U.S. dollar: a multiple threshold nonlinear ARDL
-#' approach. \emph{Economic Modelling}, 54, 518-526.
-#' \doi{10.1016/j.econmod.2015.09.058}
+#' Pal, D., & Mitra, S. K. (2016). Asymmetric oil product pricing in India:
+#' Evidence from a multiple threshold nonlinear ARDL
+#' model. \emph{Economic Modelling}, 59, 314-328.
+#' \doi{10.1016/j.econmod.2016.08.003}
 #'
 #' Pesaran, M. H., Shin, Y., & Smith, R. J. (2001). Bounds testing
 #' approaches to the analysis of level relationships.

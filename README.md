@@ -36,7 +36,7 @@ summary(res)
 
 ## References
 
-- Pal, D., & Mitra, S. K. (2016). *Economic Modelling*, 54, 518-526. https://doi.org/10.1016/j.econmod.2015.09.058
+- Pal, D., & Mitra, S. K. (2016). *Economic Modelling*, 59, 314-328. https://doi.org/10.1016/j.econmod.2016.08.003
 - Pesaran, M. H., Shin, Y., & Smith, R. J. (2001). *Journal of Applied Econometrics*, 16(3), 289-326. https://doi.org/10.1002/jae.616
 - McNown, R., Sam, C. Y., & Goh, S. K. (2018). *Applied Economics*, 50(13), 1509-1521. https://doi.org/10.1080/00036846.2017.1366643
 
