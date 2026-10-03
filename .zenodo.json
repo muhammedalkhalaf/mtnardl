@@ -11,7 +11,7 @@
   "access_right": "open",
   "related_identifiers": [
     {
-      "identifier": "https://cran.r-project.org/package=mtnardl",
+      "identifier": "https://github.com/muhammedalkhalaf/mtnardl",
       "relation": "isSupplementTo",
       "scheme": "url"
     }
