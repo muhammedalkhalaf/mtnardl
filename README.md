@@ -1,5 +1,15 @@
 # mtnardl
 
+> **This repository is superseded and no longer maintained.**
+> At the request of the CRAN team, this package was merged into the CRAN package
+> [ardlverse](https://cran.r-project.org/package=ardlverse). The function `mtnardl()` is maintained there,
+> with corrections that are not in this repository. The code here is an older version
+> and should not be used for new work.
+>
+> ```r
+> install.packages("ardlverse")
+> ```
+
 **Bootstrap Multiple Threshold Nonlinear ARDL**
 
 The `mtnardl` R package implements the Multiple Threshold Nonlinear ARDL (MTNARDL) model following Pal and Mitra (2016). It decomposes regressors into regime-specific partial sums based on quantile or custom partitions and tests for cointegration using PSS bounds testing with optional bootstrap critical values.
@@ -8,7 +18,7 @@ The `mtnardl` R package implements the Multiple Threshold Nonlinear ARDL (MTNARD
 
 - Quintile, quartile, tercile, and binary partitions
 - Automatic lag selection via AIC or BIC
-- PSS bounds test with Kripfganz & Schneider (2020) asymptotic CVs
+- PSS bounds test with Kripfganz and Schneider (2020) asymptotic CVs
 - Bootstrap cointegration test (McNown et al., 2018)
 - Long-run coefficients via delta method
 - Dynamic multipliers per regime
@@ -16,7 +26,9 @@ The `mtnardl` R package implements the Multiple Threshold Nonlinear ARDL (MTNARD
 ## Installation
 
 ```r
-install.packages("mtnardl")
+# Old version, GitHub only (see the notice at the top of this page)
+# install.packages("remotes")
+remotes::install_github("muhammedalkhalaf/mtnardl")
 ```
 
 ## Usage
@@ -36,9 +48,9 @@ summary(res)
 
 ## References
 
-- Pal, D., & Mitra, S. K. (2016). *Economic Modelling*, 59, 314-328. https://doi.org/10.1016/j.econmod.2016.08.003
-- Pesaran, M. H., Shin, Y., & Smith, R. J. (2001). *Journal of Applied Econometrics*, 16(3), 289-326. https://doi.org/10.1002/jae.616
-- McNown, R., Sam, C. Y., & Goh, S. K. (2018). *Applied Economics*, 50(13), 1509-1521. https://doi.org/10.1080/00036846.2017.1366643
+- Pal, D. and Mitra, S. K. (2016). *Economic Modelling*, 59, 314-328. https://doi.org/10.1016/j.econmod.2016.08.003
+- Pesaran, M. H., Shin, Y. and Smith, R. J. (2001). *Journal of Applied Econometrics*, 16(3), 289-326. https://doi.org/10.1002/jae.616
+- McNown, R., Sam, C. Y. and Goh, S. K. (2018). *Applied Economics*, 50(13), 1509-1521. https://doi.org/10.1080/00036846.2017.1366643
 
 ## License
 
